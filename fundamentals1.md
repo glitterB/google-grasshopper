@@ -54,7 +54,7 @@ For ex.
 colors[0] accesses 1st element (*i.e. "red"*)
 
 ------------------------------------------------------------
-## <span style="color:red" id='ifelse'>Conditional Statement</span>
+## <span style="color:blue" id='ifelse'>Conditional Statement</span>
 Conditional statement allows us to run a specific section of code when a test is true. The code inside parenthese ie ( ) is the test. If the test is true, then the code inside block { } runs. Otherwise, code will not run.
 ``` js
 var x = 10;
