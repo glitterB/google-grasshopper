@@ -5,7 +5,7 @@ Contents
 [1. String Manipulation](#string-manipulation)  
 [2. Alternative Options](#alternative-options)  
 [3. Functions](#function)  
-[4. Array Manipulation]
+[4. Array Manipulation](#array-manipulation)
 
 ------------------------------------------------------------
 ## String Manipulation  
@@ -67,8 +67,7 @@ function half(n){
     return n/2;
 }
 ```
-Creating a function is called as **Function Declaration** and we use Parameters.[^1] A function will not run unless used and this is known as **Function Call** using Arguements.[^2] A function can be called inside another function.
-
+Creating a function is called as **Function Declaration** and we use Parameters.[^1] A function will not run unless used and this is known as **Function Call** using Arguements.[^2] A function can be called inside another function. 
 - Recursion :- Recursion function is the function that call itself, enabling the function to fun again. This makes function work like loops. Function will keep calling itself untill the end condition is met.
 ``` js
 function facto(n){
@@ -83,5 +82,18 @@ function facto(n){
     return n*facto(n-1);
 }
 ```
+
+---------------------------
+## Array Manipulation
+Array maniplation are used to extract data, update elements and use array methods with **Callback Functions**.[^3]
+
+
+
+
+
+
+
+
 [^1]: A parameter is a variable in a function definition. It is a placeholder and hence does not have a concrete value.  
-[^2]: An argument is a value passed during function invocation
+[^2]: An argument is a value passed during function calling.  
+[^3]: When a function is passed as an arguement is a Callback Function.
