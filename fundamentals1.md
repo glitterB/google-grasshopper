@@ -7,7 +7,8 @@ Contents
 [3. Array](#array)  
 [4. Conditional Statement](#ifelse)  
 [5. Operators](#opers)  
-[6. Loops](#loops)
+[6. Loops](#loops)  
+[7. Object Expression](#obj)
 
 ------------------------------------------------------------
 ## String  
@@ -158,3 +159,43 @@ else{
 
 --------------------------------------------------
 ## <span style="color:red" id='loops'>Loops</span>
+A loop repeats section of code within curly brackets { }. In `JavaScript`, a *for...of* loop goes through each element in an array or string, repeating the code for each element.  
+``` js
+var basket = ['apples','banana','mango','pineapples']
+for (var fruit of basket){
+   console.log(fruit)
+}
+```
+The code given above will print name of fruits stored in *basket* array.
+
+`JavaScript` also supports a classic *for loop*, which repeats the same code inside the block { } a specified number of times. It is defined in 3 Parts,  
+1. Define loop Variable *(for var i=0;)*  - This part happend before the loop starts,  
+2. Test of loop *(i<10;)* - This part determines if the loop should keep repeating,  
+3. Update the loop variable *(i++)* - This part updates looping variable each time loop repeats.
+
+``` js
+//this loop will print numbers from 0 to 9
+for (var i=0;i<10;i++){
+   console.log(i)
+}
+```
+`JavaScript` also supports nested loops i.e. we can use loop within a loop.  
+For ex.
+``` js
+//this loop will print table of numbers from 1 to 10
+for (var i=1;i<=10;i++){
+   for (var j=i;j<=i*10;j+=i){
+      console.log(j)
+   }
+}
+```
+
+## <span style="color:red" id='obj'>Object Expression</span>
+An object in `JavaScript` can store multiple pieces of informatoin inside one variaboe. Dot *(.)* notation is used to access a property of an object *(object.property)*.
+``` js
+var object = {
+   property1 = 1,
+   property2 = 10,
+   property3 = 100,
+}
+```
