@@ -87,13 +87,76 @@ function facto(n){
 ## Array Manipulation
 Array maniplation are used to extract data, update elements and use array methods with **Callback Functions**.[^3]
 
+- Finding number of element :- *.length* property of an array will count total number of items in an array.
+``` js
+var color = ['red','green','blue']
+console.log(color.length) //3
+```
+- Slicing an array :- *.slice()* method of an array will create a new array by copying a subset of another array. It takes 2 arguement, an array index where to start copying and an index where to end (*end excluded*).
+``` js
+var color = ['red','green','blue']
+console.log(color.slice(0,2))
+//The output - 'red','green'
+```
 
+- Adding elements to an array :- *.push()* method adds an element at the end of the array
+``` js
+var colors = ['red','green','blue']
+colors.push('black')
+console.log(colors)
+//The output - ['red','green','blue','black']
+```
+- Removing element from an array :- *.pop()* method removes an element from the end of the array and returns it
+``` js
+var colors = ['red','green','blue']
+last = colors.pop()
+console.log(colors)
+//The output - ['red','green']
+console.log(last) //'blue'
+```
 
+- Copying all the elements from an array :- `JavaScript` has a special operator *'. . .'* which copies all the elements form an array to another array.
 
+``` js
+var colors = ['red','green','blue']
+var newColors = [...colors, 'black','brown','violet']
+console.log(newColors);
+//The output - ['red','green','blue','black','brown','violet']
+```
 
-
-
-
+- Filtering array elements :- *.filter()* method is used to select items of an array that passes certain test. Each array element is used as arguement in callback function, and if it returns true, the item passes the filter. Otherwise, item will be filtered out.
+``` js
+function even(n){
+    if (n%2==0){
+        return true
+    }
+    return false
+}
+arr = [1,2,3,4,5,6,7,8,9,10]
+console.log(arr.filter(even))
+// [2,4,6,8,10]
+```
+- Using array elements as function arguements :- *.forEach()* method loops through each element in an array and used it as an arguement for specified callback function. (*Note: .forEach() method does not return a new array*)
+``` js
+function even(n){
+    if (n%2==0){
+        console.log('Even')
+    }
+    else{
+        console.log("Odd")
+    }
+}
+arr = [1,2,3,4]
+console.log(arr.filter(even))
+/*
+OUTPUT:-
+Odd
+Even
+Odd
+Even
+*/
+```
+---
 [^1]: A parameter is a variable in a function definition. It is a placeholder and hence does not have a concrete value.  
 [^2]: An argument is a value passed during function calling.  
 [^3]: When a function is passed as an arguement is a Callback Function.
