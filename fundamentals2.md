@@ -147,7 +147,7 @@ function even(n){
     }
 }
 arr = [1,2,3,4]
-console.log(arr.filter(even))
+console.log(arr.forEach(even))
 /*
 OUTPUT:-
 Odd
