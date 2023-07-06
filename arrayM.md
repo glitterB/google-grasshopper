@@ -67,3 +67,29 @@ console.log(nar);
 ```
 ------------------
 ### Apply Functions
+`JavaScript` supports arraw functions to transform elements of an array based on their index. 
+
+Let's first understand an arrow function. An arrow function is the compact way to create a new function. It used *`( ) => { }`* instead of `function` keyword. It also does not need a name.
+``` js
+var multiplyBy10 = (number)=> {
+    return number*10;
+}
+console.log(multiplyBy10(10)); //100
+```
+
+- Mapping array elements :- *`.map()`* method calls a function on each element of an array and returs the results to a new array.
+``` js
+var arr = ['yoho','hoho']
+arr = arr.map((item)=>{
+    return item+item;
+})
+// yohoyoho, hohohoho
+```
+- Reducing an array :- *`.reduce()`* method add up all the values of an array and returns a single value.
+``` js
+var arr = [1,2,3,4]
+sum = arr.reduce((sum,num)=>{
+    return sum+num
+},5)
+```
+*`.reduce()`* used 2 arguments: a callback function an a starting value. The callback function also takes two arguements: total values and current value.
