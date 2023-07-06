@@ -13,10 +13,22 @@ Unfortunately, Google is shutting down the **Grasshopper App**. But this reposit
 ## MODULES
 
 [1. Fundamentals I](fundamentals1.md)  
+    1.1. String  
+    1.2. Variable  
+    1.3. Array  
+    1.4. Conditional Statemet  
+    1.5. Operator  
+    1.6. Loops  
+    1.7. Object Expression  
 [2. Fundamentals II](fundamentals2.md)  
+    2.1. String Manipulation
+    2.2. Alternative Approaches
+    2.3. Functions
+    2.4. Array Manipulation
+[3. Intro to Interviewing](interviewing.md)  
 [4. Array Methods](arraymethod.md)  
 [5. Animations (*coming soon*)](animations)  
 
 
 ---
-[1]: [Grasshopper (mobile app). (2023, June 28). *In Wikipedia*](https://en.wikipedia.org/wiki/Grasshopper_(mobile_app))
+[^1]: [Grasshopper (mobile app). (2023, June 28). *In Wikipedia*](https://en.wikipedia.org/wiki/Grasshopper_(mobile_app))
