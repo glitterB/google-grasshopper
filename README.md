@@ -14,15 +14,9 @@ Unfortunately, Google is shutting down the **Grasshopper App**. But this reposit
 
 [1. Fundamentals I](fundamentals1.md)  
 [2. Fundamentals II](fundamentals2.md)  
-<<<<<<< HEAD
-[3. Intro to Interviewing (*coming soon*)](interviewing)  
 [4. Array Methods](arraym.md)  
 [5. Animations (*coming soon*)](animations)  
 
+
 ---
 [1]: [Grasshopper (mobile app). (2023, June 28). *In Wikipedia*](https://en.wikipedia.org/wiki/Grasshopper_(mobile_app))
-=======
-3. Intro to Interviewing (*coming soon...*)  
-[4. Array Methods](#arrayM.md)  
-5. Animations (*coming soon...*)
->>>>>>> f835885958ad8b401bc474693fcf7d15a0957be4
