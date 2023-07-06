@@ -14,7 +14,7 @@ Unfortunately, Google is shutting down the **Grasshopper App**. But this reposit
 
 [1. Fundamentals I](fundamentals1.md)  
 [2. Fundamentals II](fundamentals2.md)  
-[4. Array Methods](arraym.md)  
+[4. Array Methods](arraymethod.md)  
 [5. Animations (*coming soon*)](animations)  
 
 
