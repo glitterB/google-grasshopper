@@ -1,6 +1,6 @@
 # Array Methods
 
-In this module, we will learn to search arrays, combine elemetnts an transform elements using row functions
+In this module, we will learn to search arrays, combine elemetnts an transform elements using row functions.
 
 ### Contents
 [1. Search and Locate](#search-and-locate)  
@@ -93,3 +93,5 @@ sum = arr.reduce((sum,num)=>{
 },5)
 ```
 *`.reduce()`* used 2 arguments: a callback function an a starting value. The callback function also takes two arguements: total values and current value.
+
+---
