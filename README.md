@@ -12,7 +12,7 @@ Unfortunately, Google is shutting down the **Grasshopper App**. But this reposit
 ---
 ## MODULES
 
-- [Fundamentals I](fundamentals1.md)
+- [Fundamentals I](src/fundamentals1.md)
   - String
   - Variable  
   - Array
@@ -21,20 +21,20 @@ Unfortunately, Google is shutting down the **Grasshopper App**. But this reposit
   - Loops  
   - Object Expression
 
-- [Fundamentals II](fundamentals2.md) 
+- [Fundamentals II](src/fundamentals2.md) 
   - String Manipulation
   - Alternative Approaches
   - Functions
   - Array Manipulation
 
-- [Intro to Interviewing (*coming soon*)](interviewing.md)
+- [Intro to Interviewing (*coming soon*)](src/interviewing.md)
 
-- [Array Methods](arraymethod.md)
+- [Array Methods](src/arraymethod.md)
   - Search and Locate
   - Manipulation
   - Apply Functions
 
-- [Animations (*coming soon*)](animations.md)  
+- [Animations (*coming soon*)](src/animations.md)  
 
 ---
 [^1]: [Grasshopper (mobile app). (2023, June 28). *In Wikipedia*](https://en.wikipedia.org/wiki/Grasshopper_(mobile_app))
