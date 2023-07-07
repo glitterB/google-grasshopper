@@ -8,19 +8,19 @@ In this module, we will learn how to search arrays, combine elemetnts and transf
 [3. Apply Functions](#apply-functions)
 
 ### Search and Locate
-- *`.incudes()`* is the array method to search for an item in an array. It will return `ture` or `false` depending on whether the item is found.
+- *`.incudes(arg1)`* is the array method to search for an item (*`arg1`*) in an array. It will return `ture` or `false` depending on whether the item is found.
 ``` js
 var color = ["red","green","blue"]
 color.includes("red") // true
 ```
 
-- *`.indexOf()`* is the array method to find index of element. If no element is found then it will return -1.
+- *`.indexOf(arg1)`* is the array method to find index of element(*`arg1`*). If no element is found then it will return -1.
 ``` js
 var color = ["red","green","blue"]
 console.log(color.indexOf("red")) // 0
 ```
 
-- *`.lastIndexOf()`* is the array method to find index of element, similar to *`.indexOf()`* method but in reverse order (from end of array). If no element is found then it will return -1.
+- *`.lastIndexOf(arg1)`* is the array method to find index of element (*`arg1`*), similar to *`.indexOf()`* method but in reverse order (from end of array). If no element is found then it will return -1.
 ``` js
 var color = ["red","green","red","blue"]
 console.log(color.lastIndexOf("red")) // 2
@@ -92,7 +92,7 @@ sum = arr.reduce((sum,num)=>{
     return sum+num
 },5)
 ```
-*`.reduce()`* uses 2 arguments, *`arg1`* : a callback function and *`arg2`* : a starting value. The callback function also takes two arguements: total values and current value.
+*`.reduce(arg1, arg2)`* uses 2 arguments, *`arg1`* : a callback function and *`arg2`* : a starting value. The callback function also takes two arguements: total values and current value.
 
 ---
 ---
