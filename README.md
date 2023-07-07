@@ -21,13 +21,14 @@ Unfortunately, Google is shutting down the **Grasshopper App**. But this reposit
   - Loops  
   - Object Expression
 
-- [Fundamentals II](src/fundamentals2.md) 
+- [Fundamentals II](src/fundamentals2.md)
   - String Manipulation
   - Alternative Approaches
   - Functions
   - Array Manipulation
 
-- [Intro to Interviewing (*coming soon*)](src/interviewing.md)
+- [Intro to Interviewing](src/interviewing.md)
+  - Learn how to solve former **Google** Interview question.
 
 - [Array Methods](src/arraymethod.md)
   - Search and Locate
