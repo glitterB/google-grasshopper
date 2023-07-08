@@ -156,6 +156,11 @@ Odd
 Even
 */
 ```
+
+##### [Home](../README.md)  
+##### [Next](interviewing.md) 
+##### [Previous](fundamentals1.md)  
+
 ---
 ---
 [^1]: A parameter is a variable in a function definition. It is a placeholder and hence does not have a concrete value.  

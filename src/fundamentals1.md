@@ -134,7 +134,8 @@ var object = {
 }
 console.log(object.property1) // 1
 ```
-
+|[Home](../README.md)|[Next](fundamentals2.md)
+|:---|---:|
 ---
 ---
 [^1]: `console.log()` is used to print values passed in that function.

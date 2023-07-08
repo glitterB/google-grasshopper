@@ -124,5 +124,8 @@ var dictionary = ['art','vascular','javas','vat']
 console.log(longestMatch(string,dictionary));
 //avast
 ```
+
+|[Home](../README.md)|[Next](arraymethod.md)|[Previous](fundamentals2.md)|
+|:---|:---:|---:|
 ---
 ---

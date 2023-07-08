@@ -94,5 +94,8 @@ sum = arr.reduce((sum,num)=>{
 ```
 *`.reduce(arg1, arg2)`* uses 2 arguments, *`arg1`* : a callback function and *`arg2`* : a starting value. The callback function also takes two arguements: total values and current value.
 
+
+|[Home](../README.md)|[Next](animations.md)|[Previous](interviewing.md)|
+|:---|:---:|---:|
 ---
 ---
